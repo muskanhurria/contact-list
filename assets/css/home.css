@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    margin: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+#contacts{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#contacts ul li{
+    border: 2px solid black;
+    margin: 5px;
+    height: 40px;
+    width: 400px;
+    position: relative;
+}
+
+#contacts ul li a{
+    font-size: 17px;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+}
+
+#details{
+    justify-content: space-between;
+}
+
+#name{
+    margin-left: 8px;
+}
+
+#phone{
+    margin-left: 100px;
+}
+
+#phone, #name{
+    display: inline-block !important;
+    margin-bottom: 5px !important;
+}
+
+form{
+    position: absolute;
+    top: 80%;
+}
+
+input, textarea{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    margin: 40px;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+}
